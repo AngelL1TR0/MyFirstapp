@@ -136,9 +136,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:clickable="true"
+        android:minHeight="48dp"
         android:text="https://www.marca.com/"
         android:textColor="#DD0E0E"
-        android:textColorHighlight="#D10A0A" />
+        android:textColorHighlight="#D10A0A"
+        android:textIsSelectable="true" />
 
     <TextView
         android:id="@+id/textView20"
@@ -151,6 +153,7 @@
         android:id="@+id/textView21"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="texto en minusculas" />
+        android:text="texto en minusculas pero puesto AllCaps"
+        android:textAllCaps="true" />
 
 </LinearLayout>
